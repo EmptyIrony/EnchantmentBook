@@ -1,0 +1,8 @@
+name: EnchantmentBook
+version: '${project.version}'
+main: me.emptyirony.enchantmentbook.enchantmentbook.EnchantmentBook
+api-version: 1.17
+authors: [ EmptyIrony ]
+commands:
+  "giveEnchantBook":
+    description: ""
