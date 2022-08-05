@@ -95,7 +95,7 @@ public final class EnchantmentBook extends JavaPlugin {
                 }
 
                 net.minecraft.world.item.ItemStack asNMSCopy = CraftItemStack.asNMSCopy(item);
-                EnchantmentManager.a(random, asNMSCopy, 30, true);
+                EnchantmentManager.a(random, asNMSCopy, 30, false);
 
                 return CraftItemStack.asBukkitCopy(asNMSCopy);
             }
